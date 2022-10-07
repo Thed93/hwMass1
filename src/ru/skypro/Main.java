@@ -20,7 +20,13 @@ public class Main {
         System.out.println(mass2[2] + " , " + mass2[1] + " , " + mass2[0] + "\n");
         System.out.println(mass3[2] + " , " + mass3[1] + " , " + mass3[0] + "\n");
 
-
+        System.out.println("Tusk 4" + "\n");
+        for (int i = 0; i < mass1.length; i++) {
+            if (mass1[i] % 2 != 0) {
+                mass1[i] = mass1[i] + 1;
+            }
+            System.out.print(mass1[i] + " ,");
+        }
 
         }
     }
