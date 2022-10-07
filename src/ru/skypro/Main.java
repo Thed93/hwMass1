@@ -14,6 +14,13 @@ public class Main {
         System.out.println(mass2[0] + " , " + mass2[1] + " , " + mass2[2] + "\n");
         System.out.println(mass3[0] + " , " + mass3[1] + " , " + mass3[2] + "\n");
 
+        System.out.println("Tusk 3" + "\n");
+
+        System.out.println(mass1[2] + " , " + mass1[1] + " , " + mass1[0] + "\n");
+        System.out.println(mass2[2] + " , " + mass2[1] + " , " + mass2[0] + "\n");
+        System.out.println(mass3[2] + " , " + mass3[1] + " , " + mass3[0] + "\n");
+
+
 
         }
     }
